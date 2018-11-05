@@ -20,10 +20,22 @@
 		    position: fixed;
 		    right: 0;
 		    top: 0;
-	}
+		}
+		.imagen2{
+			display: none;
+		}
+		@media only screen and (max-width: 600px) {
+			.imagen1{
+				display: none;
+			}
+	    	.imagen2{
+	    		display: initial;
+	    	}
+		}
 	</style>
 </head>
 <body>
-	<img src="wallpaper-fruna.jpg" class="wallpaper" alt="">
+	<img src="wallpaper-fruna.jpg" class="wallpaper imagen1" alt="">
+	<img src="wallpaper-fruna.jpg" class="wallpaper imagen2" alt="">
 </body>
 </html>
